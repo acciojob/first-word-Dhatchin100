@@ -1,14 +1,10 @@
 function firstWord(s) {
-  // your code here
-	if(!s){
-		return '';
-	}
-	const initialWord = s.split(' ');
-	let firstWord = initialWord[0];
-	return firstWord;
+   const words = str.split(' ');
+    return words.length > 0 ? words[0] : str;
 }
 
 // Do not change the code below
 
 const s = prompt("Enter String:");
+alert(firstWord(s));
 alert(firstWord(s));
